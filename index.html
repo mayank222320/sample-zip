@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en-IN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no" />
+  <link rel="icon" type="image/png" href="/Copmap-logo.png" />
+  <link rel="apple-touch-icon" href="/Copmap-logo.png" />
+  <meta name="theme-color" content="#3b82f6" />
+
+  <!-- LLMs Hint -->
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM documentation" />
+
+  <!-- Regional & Language SEO -->
+  <meta name="geo.region" content="IN" />
+  <meta name="geo.placename" content="Maharashtra" />
+  <meta name="geo.position" content="19.7515;75.7139" />
+  <meta name="ICBM" content="19.7515, 75.7139" />
+  <link rel="alternate" hreflang="en-IN" href="https://copmap.in/" />
+
+  <link rel="preconnect" href="https://unpkg.com" />
+
+  <!-- Leaflet Map Integration -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin="" defer></script>
+
+  <title>CopMap — Police Field Operations Platform India</title>
+  <meta name="description"
+    content="CopMap is India's leading police bandobast and patrolling platform. Digitize field operations with smart planning and real-time tracking." />
+  <meta name="keywords" content="bandobast app, bandobast planning software, police patrolling app, digital patrolling management, police digitization software, e-policing solutions, smart police station management, police force modernization platform, paperless police station software, digital transformation in law enforcement, CopMap, EyeQlytics" />
+  <meta name="author" content="CopMap — EyeQlytics Technologies" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://copmap.in/" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://copmap.in/" />
+  <meta property="og:title" content="CopMap — Police Field Operations Platform India" />
+  <meta property="og:description" content="India's purpose-built SaaS platform for law enforcement field operations." />
+  <meta property="og:image" content="/Copmap-logo.png" />
+  <meta property="og:site_name" content="CopMap" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://copmap.in/" />
+  <meta name="twitter:title" content="CopMap — Police Field Operations Platform India" />
+  <meta name="twitter:description" content="India's purpose-built SaaS platform for law enforcement field operations." />
+  <meta name="twitter:image" content="/Copmap-logo.png" />
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "EyeQlytics Technologies Pvt. Ltd.",
+      "alternateName": "CopMap",
+      "url": "https://copmap.in",
+      "logo": "https://copmap.in/Copmap-logo.png",
+      "description": "Leading provider of law enforcement automation solutions in India",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+91-9970283329",
+          "contactType": "customer service",
+          "email": "admin@copmap.in",
+          "availableLanguage": ["English", "Hindi"]
+        }
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "CopMap",
+      "description": "Revolutionary law enforcement automation platform for police operations management across India",
+      "url": "https://copmap.in",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web, iOS, Android",
+      "softwareVersion": "2.0",
+      "author": {
+        "@type": "Organization",
+        "name": "EyeQlytics Technologies Pvt. Ltd."
+      }
+    }
+  </script>
+
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PTVYJKNPNS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-PTVYJKNPNS', {
+      send_page_view: false // Handled by React
+    });
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>
